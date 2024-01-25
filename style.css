@@ -392,6 +392,10 @@ body {
     margin-top: -1.1em;
 }
 
+.logo-svg {
+    margin-right: auto;
+}
+
 .dashboard-header {
     color: #26282C;
     margin-right: auto;
