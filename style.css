@@ -1143,18 +1143,27 @@ line-height: 26px; /* 144.444% */
     align-items: center;
 }
 
-.trend-svg {
-    
-}
 
 .digits {
     color: #34CAA5;
 
 /* Body Text/Plus Jakarta Sans/Medium/12 */
-font-family: "Plus Jakarta Sans";
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px; /* 133.333% */
+   font-family: "Plus Jakarta Sans";
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 16px; /* 133.333% */
 }
+
+.prev {
+    color: #606060;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -2.4em;
+    margin-left: 7em;
+}
+
 
