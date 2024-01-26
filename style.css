@@ -1082,88 +1082,104 @@ margin-top: -1.4em;
 
 /* total-order*/
 
-.total-order {
+
+
+
+/*frame-1*/
+
+.frame-1 {
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    border: 1px solid #EDF2F7;
+    background: #FFF;
+    width: 239px;
+    height: 139px;
+}
+
+.frame-nest {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
 }
 
-.top-order {
+.inline-frame {
     display: flex;
     width: 207px;
     justify-content: space-between;
     align-items: center;
 }
 
-/* blue-tick */
-
-.box-tick svg {
-   flex-shrink: 0;
+.refund-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
 }
 
-.total-p{
+.total-refund {
     color: #898989;
 
 /* Body Text/Plus Jakarta Sans/Medium/18 */
-font-family: "Plus Jakarta Sans";
-font-size: 15px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 144.444% */
-}
+    font-family: "Plus Jakarta Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+} 
 
-.num-350 {
+.nth-num {
     color: #3A3F51;
 
 /* Heading Text/Plus Jakarta Sans/SemiBold/24 */
     font-family: "Plus Jakarta Sans";
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 32px; /* 133.333% */
+    margin-top: -0.8em;
 }
 
-.up-row {
+.row-layout {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.layout-r {
     display: flex;
     padding: 4px 8px;
     justify-content: center;
     align-items: center;
     gap: 4px;
     border-radius: 1000px;
-    background: rgba(52, 202, 165, 0.12);
-}
-
-.trending-up{
-    display: flex;
-    width: 12px;
-    height: 12px;
-    padding: 3.5px 1.5px;
-    justify-content: center;
-    align-items: center;
+    background: rgba(237, 84, 78, 0.12);
+    margin-top: -0.9em
 }
 
 
-.digits {
-    color: #34CAA5;
+.decimal-p {
+    color: #ED544E;
 
 /* Body Text/Plus Jakarta Sans/Medium/12 */
-   font-family: "Plus Jakarta Sans";
-   font-size: 12px;
-   font-style: normal;
-   font-weight: 500;
-   line-height: 16px; /* 133.333% */
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
 }
 
-.prev {
+
+.vs-layout {
     color: #606060;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: -2.4em;
-    margin-left: 7em;
+    margin-top: -1.2em;
 }
-
 
