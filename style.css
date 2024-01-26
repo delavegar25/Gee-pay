@@ -794,7 +794,7 @@ margin-top: -1.4em;
     flex-shrink: 0;
     border-radius: 20px 20px 0px 0px;
     background: rgba(52, 202, 165, 0.10);
-    margin-top: -16.3em;
+    margin-top: -16.1em;
     margin-left: 4em;
 }
 
@@ -810,5 +810,31 @@ margin-top: -1.4em;
     font-weight: 600;
     line-height: 22px; /* 157.143% */
     margin-left: 7.2em;
-    margin-top: 1.9em;
+    margin-top: 1.7em;
+}
+
+.month-mar {
+   width: 30px;
+   height: 40px;
+   flex-shrink: 0;
+   border-radius: 20px 20px 0px 0px;
+   background: rgba(52, 202, 165, 0.10);
+   margin-top: -5.1em;
+   margin-left: 8.3em;
+}
+
+.p-mar {
+  flex: 1 0 0;
+
+  color: var(--Neutral-600, #525252);
+  text-align: center;
+
+/* Body Text/Plus Jakarta Sans/SemiBold/14 */
+   font-family: "Plus Jakarta Sans";
+   font-size: 10px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 22px; /* 157.143% */
+   margin-left: 14em;
+   margin-top: 1.9em;
 }
