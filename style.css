@@ -648,6 +648,7 @@ body {
     align-items: flex-start;
     flex-shrink: 0;
     opacity: 0.56;
+    overflow: hidden;
 }
 
 .num-1 {
@@ -758,7 +759,7 @@ body {
 }
 
 
-.month {
+.month-jan {
     border-radius: 20px 20px 0px 0px;
     background: rgba(52, 202, 165, 0.10);
     width: 30px;
@@ -787,10 +788,27 @@ margin-top: -1.4em;
 
 /* feb bar-chart */
 
-.p-feb {
+.month-feb {
     width: 30px;
     height: 120px;
     flex-shrink: 0;
     border-radius: 20px 20px 0px 0px;
     background: rgba(52, 202, 165, 0.10);
+    margin-top: -16.3em;
+    margin-left: 4em;
+}
+
+.p-feb {
+
+    color: var(--Neutral-600, #525252);
+    text-align: center;
+
+/* Body Text/Plus Jakarta Sans/SemiBold/14 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+    margin-left: 7.2em;
+    margin-top: 1.9em;
 }
