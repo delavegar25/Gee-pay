@@ -1394,3 +1394,9 @@ margin-top: -1.4em;
     justify-content: space-between;
     align-items: center;
 }
+
+.ellipse {
+    stroke-width: 0.714px;
+    stroke: #E6E6E6;
+}
+
