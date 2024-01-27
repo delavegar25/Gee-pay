@@ -454,7 +454,6 @@ body {
 }
 
 
-
 .frame-sun{
     display: flex;
     width: 30px;
@@ -465,7 +464,8 @@ body {
     gap: 9.375px;
     border-radius: 94px;
     background: #34CAA5;
-    margin-right: 87.23em;
+    margin-right: 87.2em;
+    cursor: pointer;
 }
 
 .moon {
@@ -481,7 +481,8 @@ body {
     justify-content: flex-end; 
     align-items: center;
     gap: 18px;
-    margin-top: -31.8em;
+    margin-top: -32.2em;
+    position: relative;
 }
 
 
