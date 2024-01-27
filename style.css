@@ -1546,3 +1546,35 @@ margin-top: -1.4em;
     flex-shrink: 0;
 }
 
+.typo-nth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+
+.income {
+    color: #898989;
+
+/* Body Text/Plus Jakarta Sans/Medium/18 */
+   font-family: "Plus Jakarta Sans";
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 26px; /* 144.444% */
+}
+
+.dollar-nth {
+    color: #3A3F51;
+
+/* Heading Text/Plus Jakarta Sans/SemiBold/24 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+}
+
+
+
