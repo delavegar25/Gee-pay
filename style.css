@@ -1520,6 +1520,7 @@ margin-top: -1.4em;
     background: #FFF;
     width: 239px;
     height: 139px;
+    cursor: pointer;
 }
 
 .layout-contx {
@@ -1544,3 +1545,4 @@ margin-top: -1.4em;
     align-items: center;
     flex-shrink: 0;
 }
+
