@@ -1510,3 +1510,14 @@ margin-top: -1.4em;
     margin-left: 7em;
 }
 
+.layout-cont {
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    border: 1px solid #EDF2F7;
+    background: #FFF;
+    width: 239px;
+    height: 139px;
+}
