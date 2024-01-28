@@ -1952,5 +1952,59 @@ margin-top: -1.4em;
    font-style: normal;
    font-weight: 500;
    line-height: 24px; /* 150% */
-   padding: 1.2em;
+   margin-left: 0.2em;
+   width: 216px;
+   height: 24px;
+}
+
+.date-footer {
+    color: var(--60, #9CA4AB);
+
+/* Body Text/Plus Jakarta Sans/Medium/16 */
+   font-family: "Plus Jakarta Sans";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px; /* 150% */
+   width: 116px;
+   height: 24px;
+}
+
+.amount-footer {
+    color: var(--60, #9CA4AB);
+
+/* Body Text/Plus Jakarta Sans/Medium/16 */
+   font-family: "Plus Jakarta Sans";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px; /* 150% */
+   width: 120px;
+   height: 24px;
+}
+
+.status-footer {
+    color: var(--60, #9CA4AB);
+
+/* Body Text/Plus Jakarta Sans/Medium/16 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    width: 95px;
+    height: 24px;
+}
+
+.invoice-footer {
+    color: var(--60, #9CA4AB);
+
+/* Body Text/Plus Jakarta Sans/Medium/16 */
+   font-family: "Plus Jakarta Sans";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px; /* 150% */
+   width: 80px;
+   height: 24px;
 }
