@@ -1257,12 +1257,8 @@ margin-top: -1.4em;
 
 /*pseudo-class*/
 
-.section-1:focus {
-    background-color: #ED544E;
-}
-
 .section-1:hover {
-    background-color: #FAFAFA;
+    background-color: #ED544E;
 }
 
 .total-order{
@@ -1378,10 +1374,6 @@ margin-top: -1.4em;
 
 /*pseduo-class */
 
-.frame-1:focus {
-    background-color: #432343;
-}
-
 .frame-1:hover {
     background-color: #34CAA5;
 }
@@ -1486,9 +1478,6 @@ margin-top: -1.4em;
 }
 
 /*pseudo class added */
-.contain-box:focus {
-    background-color: #34CAA5;
-}
 
 .contain-box:hover {
     background-color: #787486;
@@ -1602,12 +1591,10 @@ margin-top: -1.4em;
     margin-top: 1.7em;
 }
 
-.layout-cont:focus{
-   background-color: #3A3F51;
-}
+
 
 .layout-cont:hover {
-   background-color: #F7F8FA;
+   background-color: #34CAA5;
 }
 
 .layout-contx {
