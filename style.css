@@ -1052,6 +1052,23 @@ margin-top: -1.4em;
     margin-left: 20.3em;
 }
 
+.jun-svg {
+    margin-top: -1.54em;
+    margin-left: -1.5em;
+}
+
+.jun-t {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -2.5em;
+    margin-left: -1.1em;
+}
+
+
 .p-jun {
     flex: 1 0 0;
     color: var(--Neutral-600, #525252);
