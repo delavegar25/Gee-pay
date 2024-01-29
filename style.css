@@ -363,12 +363,30 @@ body {
     position: relative;
 }
 
+/*media query*/
+
 @media screen and (max-width: 991px){
     body {
+        display: flex;
+        width: 2550px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
         display: flex;
         min-width: 0;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .head-dash {
+        display: flex;
+        min-width: 0;
+    }
+}
+
+
 
 .container {
     display: flex;
@@ -377,14 +395,6 @@ body {
     align-items: flex-start;
     background: #fff;
 }
-
-@media screen and (nax-width: 991px) {
-    .container {
-        position: absolute;
-        display: flex;
-    }
-}
-
 
 
 .box {
