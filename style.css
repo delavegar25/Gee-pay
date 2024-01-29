@@ -574,7 +574,7 @@ body {
     align-self: stretch;
     margin-top: -4.5em;
     position: relative;
-    margin-right: 10em;
+    margin-right: 50em;
 }
 
 
@@ -596,7 +596,7 @@ body {
 .search-svg {
    position: relative; 
    top: 1.4px;
-   left: -560px;
+   left: -110px;
 }
 
 
@@ -619,7 +619,7 @@ body {
 /*ddmmyyyy*/
 
 .ddmmyyyy {
-    margin-left: 14em;
+    margin-left: -12em;
     margin-top: -3.6em;
 }
 
@@ -646,8 +646,8 @@ body {
     gap: 6px;
     border-radius: 27px;
     border: 0.769px solid #DADDDD;
-    margin-left: 38.4em;
-    margin-top: -3em;
+    margin-left: 5em;
+    margin-top: -3.4em;
     cursor: pointer;
 }
 
@@ -684,7 +684,7 @@ body {
     border-radius: 28px;
     border: 1px solid #DADDDD;
     margin-top: -3.7em;
-    margin-left: 61em;
+    margin-left: 31em;
     cursor: pointer;
 }
 
