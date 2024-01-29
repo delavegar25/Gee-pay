@@ -2256,6 +2256,7 @@ margin-top: -1.4em;
     line-height: 24px; /* 150% */
     width: 116px;
     height: 24px;
+    margin-left: 4.6em;
 }
 
 .corey-doll {
@@ -2269,6 +2270,7 @@ margin-top: -1.4em;
     line-height: 24px; /* 150% */
     width: 120px;
     height: 24px;
+    margin-left: 3.3em;
 }
 
 .corey-paid {
@@ -2282,6 +2284,7 @@ margin-top: -1.4em;
     line-height: 24px; /* 150% */
     width: 95px;
     height: 24px;
+    margin-left: 2.3em;
 }
 
 .corey-view {
@@ -2289,6 +2292,11 @@ margin-top: -1.4em;
     width: 80px;
     align-items: center;
     gap: 6px;
+}
+
+.corey-view svg {
+    margin-top: -0.7em;
+    margin-left: 0.8em;
 }
 
 .corey-v{
@@ -2302,5 +2310,6 @@ margin-top: -1.4em;
     line-height: 22px; /* 157.143% */
     height: 33px;
     width: 22px;
+    margin-right: 1.4em;
 }
 
