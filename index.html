@@ -15,7 +15,7 @@
     
     <!--body and container -->
 
-    <div class="container">
+    <div class="container" aria-details="container-sidebar" aria-live="assertive" aria-roledescription="sidebar">
         <div class="box">
        <div class="header">
         <div class="logo-dashboard">
@@ -130,19 +130,47 @@
 </svg>
     
 </div>
-
     
+<!--foot-svg section-->
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="foot-svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M8.5 12H14.5" stroke="#B2ABAB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.5 15L15.5 12L12.5 9" stroke="#B2ABAB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M4 6C2.75 7.67 2 9.75 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2C10.57 2 9.2 2.3 7.97 2.85" stroke="#B2ABAB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+      </div>
+
+      <!--foot-t section-->
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="foot-t" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M15 12C15 10.34 13.66 9 12 9C10.34 9 9 10.34 9 12C9 13.66 10.34 15 12 15C12.41 15 12.81 14.92 13.17 14.76" stroke="#B2ABAB" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6.87988 20.5799L7.96988 21.2099C8.75988 21.6799 9.77988 21.3999 10.2499 20.6099L10.3599 20.4199C11.2599 18.8499 12.7399 18.8499 13.6499 20.4199L13.7599 20.6099C14.2299 21.3999 15.2499 21.6799 16.0399 21.2099L17.7699 20.2199C18.6799 19.6999 18.9899 18.5299 18.4699 17.6299C17.5599 16.0599 18.2999 14.7799 20.1099 14.7799C21.1499 14.7799 22.0099 13.9299 22.0099 12.8799V11.1199C22.0099 10.0799 21.1599 9.21995 20.1099 9.21995C19.0999 9.21995 18.4199 8.81995 18.1799 8.18995C17.9899 7.69995 18.0699 7.05995 18.4699 6.36995C18.9899 5.45995 18.6799 4.29995 17.7699 3.77995L16.9599 3.31995" stroke="#B2ABAB" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13.64 3.58006C12.74 5.15006 11.26 5.15006 10.35 3.58006L10.24 3.39006C9.78 2.60006 8.76 2.32006 7.97 2.79006L6.24 3.78006C5.33 4.30006 5.02 5.47006 5.54 6.38006C6.45 7.94006 5.71 9.22006 3.9 9.22006C2.86 9.22006 2 10.0701 2 11.1201V12.8801C2 13.9201 2.85 14.7801 3.9 14.7801C5.71 14.7801 6.45 16.0601 5.54 17.6301" stroke="#B2ABAB" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+      </div>
+ 
+      <!--foot-y section-->
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="foot-y" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M6.56 14.5599L4 11.9999L6.56 9.43994" stroke="#B2ABAB" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9.23982 12H4.06982" stroke="#B2ABAB" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14.2398 12H12.2798" stroke="#B2ABAB" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18.01 6.47998C19.25 7.83998 20 9.70998 20 12C20 17 16.42 20 12 20" stroke="#B2ABAB" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 4C13.05 4 14.05 4.17 14.97 4.49" stroke="#B2ABAB" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+      </div>
         </div>
         </div>
     
 
        
-             <div class="head-dash">
+             <div class="head-dash" aria-roledescription="graph-section" aria-live="polite">
         <h1 class="dashboard-header">Dashboard</h1>
         
         <!--search-icon-->
           
-        <div class="search-icon">
+        <div class="search-icon" aria-roledescription="search-bar">
             <input type="text" class="search-box" name="search" placeholder="Search...">
             <svg xmlns="http://www.w3.org/2000/svg" class="search-svg" width="14" height="14" viewBox="0 0 18 18" fill="none
             ">
@@ -161,14 +189,14 @@
         
         <!--notification-bell-->
 
-        <div class="notification-bell">
+        <div class="notification-bell" aria-roledescription="notification-bell">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 1.04163C8.2872 1.04163 6.64449 1.72206 5.43332 2.93323C4.22215 4.1444 3.54172 5.7871 3.54172 7.49996V8.08663C3.54167 8.66737 3.36973 9.23511 3.04755 9.71829L2.09172 11.1541C0.980053 12.8208 1.82839 15.0858 3.76089 15.6125C4.39005 15.7841 5.02505 15.9291 5.66422 16.0483L5.66589 16.0525C6.30589 17.7625 8.01839 18.9583 10.0001 18.9583C11.9817 18.9583 13.6942 17.7625 14.3351 16.0525L14.3367 16.0483C14.9769 15.9292 15.6119 15.7838 16.2401 15.6125C18.1726 15.0858 19.0209 12.8208 17.9092 11.1541L16.9526 9.71829C16.6304 9.23511 16.4584 8.66737 16.4584 8.08663V7.49996C16.4584 5.7871 15.778 4.1444 14.5668 2.93323C13.3556 1.72206 11.7129 1.04163 10.0001 1.04163ZM12.8134 16.2808C10.9442 16.5041 9.05507 16.5041 7.18589 16.2808C7.77839 17.1316 8.80922 17.7083 10.0001 17.7083C11.1909 17.7083 12.2209 17.1316 12.8134 16.2808ZM4.79172 7.49996C4.79172 6.11862 5.34045 4.79386 6.31721 3.81711C7.29396 2.84036 8.61872 2.29163 10.0001 2.29163C11.3814 2.29163 12.7062 2.84036 13.6829 3.81711C14.6597 4.79386 15.2084 6.11862 15.2084 7.49996V8.08663C15.2084 8.91412 15.4534 9.72329 15.9126 10.4116L16.8692 11.8475C17.0175 12.0695 17.1108 12.3235 17.1415 12.5887C17.1722 12.8539 17.1393 13.1226 17.0457 13.3726C16.9521 13.6226 16.8004 13.8467 16.6031 14.0265C16.4057 14.2063 16.1685 14.3366 15.9109 14.4066C12.0407 15.4621 7.95855 15.4621 4.08839 14.4066C3.83103 14.3364 3.59403 14.206 3.39692 14.0263C3.19981 13.8465 3.04822 13.6225 2.95464 13.3727C2.86106 13.1228 2.82816 12.8544 2.85866 12.5893C2.88915 12.3243 2.98217 12.0703 3.13005 11.8483L4.08839 10.4116C4.54717 9.72303 4.79189 8.91406 4.79172 8.08663V7.49996Z" fill="#0D062D"/>
             </svg>
         </div>
 
         <!--profile-->
-        <div class="profile">
+        <div class="profile" aria-roledescription="profile-menu">
             <div class="picture">
                 <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://s3-alpha-sig.figma.com/img/5c6e/40a4/337c46cfe4ecd1dc345b49beaa4279e3?Expires=1707696000&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=SJh7t~0trDmj0pRVutSAxbyf0KbzCqV4Z4kaw9Xt7uy9WbiTZhjkPquKy3THf8DsTfv5fhE3wGZIFThXDilzwKjq2TvPeaND2xuovpQ6q0W61fgJdKvujT5hX5j1uWS71mI0Y8OsmOX9OJqruG93-v~4Z6RDQJ30KAXOcjyxMJyErxXWTZPjkLi0No4HFM8KlCdnssDhOIgilMo5yGoDVLgqqCFsutf6Bv-Tb612a0BBiJyqxNxKjuYGXPwLaym6ktdNg9cBADLXaLz7CPR-nNw8SkC22PkiUfvL0oQCYh~S87fPPLI4ahW34qod6q5-KlVu7IteFLkXwjNmMYuWEQ__" width="320" height="480">
             </div>
@@ -187,11 +215,11 @@
 
         <!--tables-->
 
-        <div class="file-tables">
+        <div class="file-tables" aria-live="assertive" aria-details="bar-chart">
             <div class="content-table">
                <h1 class="sales-text">Sales Trends</h1>
             </div>
-        <div class="file-section">
+        <div class="file-section" aria-live="polite" aria-label="file-section">
             <span class="sales-typo">
                 <p class="short-by">Short by:</p>
             </span>
