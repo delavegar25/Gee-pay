@@ -2002,6 +2002,8 @@ margin-top: -1.4em;
    height: 24px;
 }
 
+/*marcus-section*/
+
 .marcus {
     display: flex;
     justify-content: space-between;
@@ -2109,12 +2111,15 @@ margin-top: -1.4em;
    margin-top: 1.5em;
 }
 
+/*jaydon*/
 
 .jaydon {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
+    margin: 2em;
+    margin-left: -0.12em;
 }
 
 .jay {
