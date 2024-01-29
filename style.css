@@ -2033,6 +2033,7 @@ margin-top: -1.4em;
    line-height: 24px; /* 150% */
    width: 216px;
    height: 32px;
+   margin-top: 1.5em;
 }
 
 .cal-marcus {
@@ -2046,6 +2047,8 @@ margin-top: -1.4em;
    line-height: 24px; /* 150% */
    width: 116px;
    height: 24px;
+   margin-left: -2.2em;
+   margin-top: 1.5em;
 } 
 
 .marcus-doll {
@@ -2059,6 +2062,8 @@ margin-top: -1.4em;
    line-height: 24px; /* 150% */
    width: 120px;
    height: 24px;
+   margin-left: 2.5em;
+   margin-top: 1.5em;
 }
 
 .marcus-paid {
@@ -2072,6 +2077,8 @@ margin-top: -1.4em;
    line-height: 24px; /* 150% */
    width: 95px;
    height: 24px;
+   margin-left: 2.1em;
+   margin-top: 1.5em;
 }
 
 
@@ -2080,7 +2087,13 @@ margin-top: -1.4em;
     width: 80px;
     align-items: center;
     gap: 6px;
+    margin-left: 1.1em;
 }
+
+.view-only svg {
+    margin-top: 1.5em;
+}
+
 
 .view-mar{
     color: var(--Main-Colors-Secondary, #0D062D);
@@ -2093,6 +2106,7 @@ margin-top: -1.4em;
    line-height: 22px; /* 157.143% */
    width: 33px;
    height: 22px;
+   margin-top: 1.5em;
 }
 
 
