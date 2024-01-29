@@ -389,6 +389,13 @@ body {
     }
 }
 
+@media screen and (max-width: 991px) {
+    .file-tables{
+        display: grid;
+        min-width: 830px;
+        width: 1700px;
+    }
+}
 
 .container {
     display: flex;
@@ -715,6 +722,7 @@ body {
     border: 1px solid #EDF2F7;
     background: #FFF;
     margin-right: 30em;
+    display: grid;
 }
 
 .content-table {
