@@ -572,7 +572,7 @@ body {
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
-    margin-top: -4.5em;
+    margin-top: -4.8em;
     position: relative;
     margin-right: 50em;
 }
@@ -646,7 +646,7 @@ body {
     gap: 6px;
     border-radius: 27px;
     border: 0.769px solid #DADDDD;
-    margin-left: 5em;
+    margin-left: 17em;
     margin-top: -3.4em;
     cursor: pointer;
 }
@@ -684,8 +684,14 @@ body {
     border-radius: 28px;
     border: 1px solid #DADDDD;
     margin-top: -3.7em;
-    margin-left: 26em;
+    margin-left: 49em;
     cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .profile{
+        margin-left: 29em;
+    }
 }
 
 /*picture */
