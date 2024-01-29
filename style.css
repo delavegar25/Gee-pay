@@ -349,9 +349,7 @@
   }
   
   
-  
-
-
+ /* body */ 
 
 
 * {
@@ -380,11 +378,7 @@ body {
     }
 }
 
-@media screen and (max-width: 991px) {
-    .picture {
-        display: block;
-    }
-}
+
 
 .box {
     width: 1360px;
