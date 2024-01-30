@@ -365,7 +365,6 @@ body {
     background-color: white;
     color: black;
     transition: background-color 0.5s, color 0.5s;
-
 }
 
 /*notification vibrate*/
@@ -396,6 +395,7 @@ body {
         min-width: 0;
     }
 }
+
 
 @media screen and (max-width: 320px) {
     .container {
@@ -463,6 +463,7 @@ body {
         align-items: center;
     }
 }
+
 
 .logo-dashboard {
     display: flex;
@@ -601,6 +602,7 @@ body {
 }
 
 
+/*search-icon*/
 
 .search-icon {
     display: flex;
