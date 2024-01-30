@@ -384,25 +384,27 @@ body {
 }
 
 
-
+.notification-bell:hover {
+    background: #34CAA5;
+}
 /*media query*/
 
-@media all and (max-width: 991px){
+@media all and (max-width: 320px){
     body {
-        display: grid;
+        display: flex;
         width: 100%;
         min-width: 0;
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 320px) {
     .container {
         display: flex;
         min-width: 0;
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 320px) {
     .head-dash {
         display: flex;
         min-width: 0;
@@ -410,45 +412,16 @@ body {
     }
 }
 
-
-@media screen and (max-width: 789px) {
-    .file-tables{
-        display: grid;
-        min-width: 830px;
-        width: 1700px;
-    }
-}
-
-
-@media all and (max-width: 789px){
-    body {
-        display: grid;
-        width: 100%;
-        min-width: 0;
-    }
-}
-
-@media screen and (max-width: 789px) {
-    .container {
-        display: flex;
-        min-width: 0;
-    }
-}
-
-@media screen and (max-width: 789px) {
-    .head-dash {
-        display: flex;
-        min-width: 0;
+@media screen and (max-width: 320px) {
+    .file-tables {
         width: 100%;
     }
 }
 
-
-@media screen and (max-width: 789px) {
-    .file-tables{
-        display: grid;
-        min-width: 830px;
-        width: 1700px;
+@media screen and (max-width: 991px) {
+    .content-table {
+       display: flex;
+        width: 109%;
     }
 }
 
